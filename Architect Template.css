@@ -1,0 +1,220 @@
+html {-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+* {box-sizing: border-box;}
+body {margin: 0px;padding: 0px;font-family: Verdana, sans-serif;height: auto;}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  padding: 8px 16px;
+  font-size: 15px;
+  letter-spacing: 4px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  line-height: 1.5;
+  background-color: white;
+  z-index: 1;
+  overflow: hidden;
+  display: block;
+}
+nav .br {
+  float: left;
+}
+nav a b {
+  letter-spacing: 0px;
+}
+nav a {
+  font-weight: 100;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+  float: right;
+  margin: 0px 0px;
+  transition: 0.5s;
+}
+nav a:hover {
+  background-color: rgb(194, 194, 194);
+}
+
+.fimg {
+  width: 100%;
+  height: auto;
+  margin-bottom: 80px;
+}
+.fimg img {
+  width: 100%;
+  height: auto;
+}
+.fimg p {
+  color: white;
+  letter-spacing: 4px;
+  font-size: 36px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.fimg p span {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 8px 14px;
+  font-weight: bolder;
+  font-size: 36px!important;
+  font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.project {
+  width: 100%;
+  height: auto;
+  padding: 0px 32px;
+  margin-bottom: 55px;
+}
+.project hr {
+  opacity: 0.2;
+  margin-bottom: 40px;
+}
+.project h1 {
+  font-size: 22px;
+  font-weight: lighter;
+}
+.project .projectimg {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.project .projectimg .img1 {
+  width: 24%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+}
+.project .projectimg .img1 img {
+  padding: 5px;
+  width: 100%;
+  height: auto;
+}
+.project .projectimg p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 10px;
+  margin: 5px 0px 0px 5px;
+}
+
+.about {
+  width: 100%;
+  height: auto;
+  padding: 0px 32px;
+  margin-bottom: 50px;
+}
+.about h1 {
+  font-size: 25px;
+  font-weight: 300;
+}
+.about hr {
+  opacity: 0.2;
+  margin-bottom: 20px;
+}
+.about p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
+.teamdiv {
+  width: 100%;
+  height: auto;
+  padding: 0px 32px;
+  filter: grayscale(75%);
+  display: block;
+  margin-bottom: 100px;
+}
+.teamdiv::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.teamdiv .team {
+  padding: 0px 8px;
+  width: 25%;
+  height: auto;
+  float: left;
+}
+.teamdiv .team img {
+  width: 100%;
+  height: auto;
+}
+.teamdiv .team h1 {
+  font-size: 25px;
+  font-weight: 300;
+}
+.teamdiv .team p{
+  font-size: 15px;
+}
+.teamdiv .team button{
+  padding: 10px;
+  width: 100%;
+  background-color:#f1f1f1;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s;
+}
+.teamdiv .team button:hover{
+  background-color: lightgray ;
+}
+
+
+.contact{
+  padding: 0px 32px;
+}
+.contact h1 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.contact form input{
+  display: block;
+  padding:10px 8px ;
+  width: 100%;
+  margin-bottom: 15px;
+  border: solid #cccccc 1px;
+  font-size: 15px;
+}
+.contact form .button{
+  padding: 10px 16px;
+  border:none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  margin-top: 12px;
+  font-size: 15px;
+  transition: 0.5s;
+}
+.contact form button:hover{
+  background-color:rgb(200, 200, 200) ;
+}
+
+
+.map{
+  padding: 0px 32px;
+  margin:40px 0px 0px 0px;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+footer p{
+  margin: 0px;
+  margin-top: -5;
+}
+footer p a{
+  color: white;
+}
